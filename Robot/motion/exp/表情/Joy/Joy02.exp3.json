@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "ParamEyeL_Joy",
+			"Value": 0.2,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeR_Joy",
+			"Value": 0.2,
+			"Blend": "Add"
+		}
+	]
+}

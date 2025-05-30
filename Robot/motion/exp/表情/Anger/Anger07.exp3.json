@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "ParamEyeR_Anger",
+			"Value": 0.7,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeL_Anger",
+			"Value": 0.7,
+			"Blend": "Add"
+		}
+	]
+}

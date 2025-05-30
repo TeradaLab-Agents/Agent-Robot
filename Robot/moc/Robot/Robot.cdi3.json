@@ -1,0 +1,290 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamEyeL_Joy",
+			"GroupId": "ParamGroup2",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeR_Joy",
+			"GroupId": "ParamGroup2",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeL_Sad",
+			"GroupId": "ParamGroup4",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeR_Sad",
+			"GroupId": "ParamGroup4",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeL_Anger",
+			"GroupId": "ParamGroup3",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeR_Anger",
+			"GroupId": "ParamGroup3",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeL_Regret",
+			"GroupId": "ParamGroup5",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeR_Regret",
+			"GroupId": "ParamGroup5",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup6",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup6",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup6",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup7",
+			"Name": "体の回転　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup7",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroup7",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup7",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamShoulderL_X",
+			"GroupId": "ParamGroup8",
+			"Name": "肩L_X"
+		},
+		{
+			"Id": "ParamArmL_X",
+			"GroupId": "ParamGroup8",
+			"Name": "前腕L_X"
+		},
+		{
+			"Id": "ParamArmL_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "前腕L_Y"
+		},
+		{
+			"Id": "ParamHandsOpenL",
+			"GroupId": "ParamGroup8",
+			"Name": "手の開閉L"
+		},
+		{
+			"Id": "ParamShoulderR_X",
+			"GroupId": "ParamGroup8",
+			"Name": "肩R_X"
+		},
+		{
+			"Id": "ParamArmR_X",
+			"GroupId": "ParamGroup8",
+			"Name": "前腕R_X"
+		},
+		{
+			"Id": "ParamArmR_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "前腕R_Y"
+		},
+		{
+			"Id": "ParamHandsOpenR",
+			"GroupId": "ParamGroup8",
+			"Name": "手の開閉R"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "ニュートラル"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "喜び"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "悲しみ"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "怒り"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "後悔"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "顔の角度"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "体の角度"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "腕"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part21",
+			"Name": "表情"
+		},
+		{
+			"Id": "Part",
+			"Name": "ロボット"
+		},
+		{
+			"Id": "Part2",
+			"Name": "表情"
+		},
+		{
+			"Id": "Part3",
+			"Name": "目"
+		},
+		{
+			"Id": "Part6",
+			"Name": "モニター"
+		},
+		{
+			"Id": "Part7",
+			"Name": "モニター裏"
+		},
+		{
+			"Id": "Part8",
+			"Name": "胸部"
+		},
+		{
+			"Id": "Part9",
+			"Name": "腹部"
+		},
+		{
+			"Id": "Part11",
+			"Name": "足"
+		},
+		{
+			"Id": "Part14",
+			"Name": "腕"
+		},
+		{
+			"Id": "Part4",
+			"Name": "目R"
+		},
+		{
+			"Id": "Part5",
+			"Name": "目L"
+		},
+		{
+			"Id": "Part10",
+			"Name": "腹部中央"
+		},
+		{
+			"Id": "Part12",
+			"Name": "足L"
+		},
+		{
+			"Id": "Part13",
+			"Name": "足R"
+		},
+		{
+			"Id": "Part15",
+			"Name": "腕R"
+		},
+		{
+			"Id": "Part16",
+			"Name": "腕L"
+		},
+		{
+			"Id": "Part20",
+			"Name": "前腕R"
+		},
+		{
+			"Id": "Part17",
+			"Name": "前腕"
+		},
+		{
+			"Id": "Part19",
+			"Name": "二の腕"
+		},
+		{
+			"Id": "Part18",
+			"Name": "手"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamBodyAngleX",
+			"ParamBodyAngleY"
+		],
+		[
+			"ParamArmL_X",
+			"ParamArmL_Y"
+		],
+		[
+			"ParamArmR_X",
+			"ParamArmR_Y"
+		]
+	]
+}

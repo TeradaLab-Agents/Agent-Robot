@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "ParamEyeR_Regret",
+			"Value": 0.8,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeL_Regret",
+			"Value": 0.8,
+			"Blend": "Add"
+		}
+	]
+}

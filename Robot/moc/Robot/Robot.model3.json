@@ -1,0 +1,74 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Robot.moc3",
+		"Textures": [
+			"Robot.8192/texture_00.png"
+		],
+		"Physics": "Robot.physics3.json",
+		"DisplayInfo": "Robot.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "Joy01",
+				"File": "../../motion/exp/表情/Joy/Joy01.exp3.json"
+			},
+			{
+				"Name": "Joy10",
+				"File": "../../motion/exp/表情/Joy/Joy10.exp3.json"
+			},
+			{
+				"Name": "Sad01",
+				"File": "../../motion/exp/表情/Sad/Sad01.exp3.json"
+			},
+			{
+				"Name": "Sad10",
+				"File": "../../motion/exp/表情/Sad/Sad10.exp3.json"
+			},
+			{
+				"Name": "Anger01",
+				"File": "../../motion/exp/表情/Anger/Anger01.exp3.json"
+			},
+			{
+				"Name": "Anger10",
+				"File": "../../motion/exp/表情/Anger/Anger10.exp3.json"
+			},
+			{
+				"Name": "Regret01",
+				"File": "../../motion/exp/表情/Regret/Regret01.exp3.json"
+			},
+			{
+				"Name": "Regret10",
+				"File": "../../motion/exp/表情/Regret/Regret10.exp3.json"
+			},
+			{
+				"Name": "Neutral",
+				"File": "../../motion/exp/表情/Neutral/Neutral.exp3.json"
+			}
+		],
+		"Motions": {
+			"waiting": [
+				{
+					"File": "../../motion/waiting/EyeBlink.motion3.json",
+					"FadeInTime": 0.3,
+					"FadeOutTime": 0.2
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}
